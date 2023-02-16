@@ -11,7 +11,7 @@
 :root
 {
     --bg-color: #222327;
-    --text-color: #fff;
+    --text-color: #101010;
     --main-color: #f1ff28;
     --box-color: #181616;
 }
@@ -46,7 +46,7 @@ header
 
 .logo i
 {
-    color: var(--main-color);
+    color: var(--text-color);
     font-size: 28px;
     margin-right: 3px;
 }
@@ -169,3 +169,30 @@ header
     }
 }
 
+.content
+{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translateY(-50%);
+}
+h1
+{
+    color: #101010 ;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3
+{
+    color: #101010 ;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4
+{
+    color: #101010 ;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
